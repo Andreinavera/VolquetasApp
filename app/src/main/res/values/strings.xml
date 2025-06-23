@@ -1,4 +1,14 @@
 <resources>
-    <string name="app_name">VolquetasApp)</string>
-    <string name="category_prompt" />
+    <string name="app_name">VolquetasApp</string>
+
+    <string name="titulo_app">Control de Volquetas</string>
+    <string name="descripcion_logo_municipio">Logo del GAD Municipal de Santo Domingo</string>
+
+    <string name="titulo_pantalla_lista">Volquetas Registradas</string>
+    <string name="info_placa">Placa:</string>
+    <string name="info_marca">Marca:</string>
+    <string name="info_capacidad">Capacidad:</string>
+    <string name="info_estado">Estado:</string>
+    <string name="error_al_cargar_datos">Error al cargar los datos. Intente de nuevo.</string>
+
 </resources>

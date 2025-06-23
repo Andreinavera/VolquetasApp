@@ -1,23 +1,20 @@
 package com.example.volquetasapp;
 
 public class Volqueta {
-    private int id;
-    private String placa;
-    private String dispositivoId;
-    private String estado;
-    private String createdAt;
+    private final String placa;
+    private final String marca;
+    private final double capacidadM3;
+    private final String estado;
 
-    public Volqueta(int id, String placa, String dispositivoId, String estado, String createdAt) {
-        this.id = id;
+    public Volqueta(String placa, String marca, double capacidadM3, String estado) {
         this.placa = placa;
-        this.dispositivoId = dispositivoId;
+        this.marca = marca;
+        this.capacidadM3 = capacidadM3;
         this.estado = estado;
-        this.createdAt = createdAt;
     }
 
-    public int getId() { return id; }
     public String getPlaca() { return placa; }
-    public String getDispositivoId() { return dispositivoId; }
+    public String getMarca() { return marca; }
+    public String getCapacidadM3() { return capacidadM3 + " m³"; }
     public String getEstado() { return estado; }
-    public String getCreatedAt() { return createdAt; }
 }
