@@ -7,12 +7,12 @@
     android:padding="24dp"
     android:background="@color/white">
 
-    <!-- Logo centrado arriba -->
+    <!-- Logo centrado -->
     <ImageView
         android:id="@+id/imageLogo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:src="@drawable/quevedo_logo"   <!-- Pon tu logo en drawable -->
+        android:src="@drawable/quevedo_logo"  <!-- Asegúrate de tener este recurso -->
     android:contentDescription="Logo Quevedo"
     android:adjustViewBounds="true"
     app:layout_constraintTop_toTopOf="parent"
@@ -38,9 +38,8 @@
         />
 
     <!-- Botón para ver volquetas -->
-    <com.google.android.material.button.MaterialButton
+    <com.google.android.button.Button
         android:id="@+id/btnVerVolquetas"
-        style="@style/Widget.MaterialComponents.Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Ver volquetas disponibles"
